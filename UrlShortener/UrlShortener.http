@@ -1,0 +1,9 @@
+@UrlShortener_HostAddress = http://localhost:7077
+
+POST {{UrlShortener_HostAddress}}/api/Url
+Accept: application/json
+
+### Test URL Redirection
+GET {{UrlShortener_HostAddress}}/api/Url/{shortUrl}
+
+###

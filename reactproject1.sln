@@ -5,11 +5,9 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "reactproject1", "reactproject1\reactproject1.esproj", "{3BB5690A-6BEF-4FF0-840A-71674029DCB6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrlShortener", "..\UrlShortener\UrlShortener\UrlShortener.csproj", "{C051AC6A-A365-484A-91BA-323FC60DB0C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrlShortener", "UrlShortener\UrlShortener.csproj", "{70816353-66FD-4FD8-9B59-3EBE04FE6D8A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrlShortener.Tests", "..\UrlShortener\UrlShortener.Tests\UrlShortener.Tests.csproj", "{36855172-774C-4779-8FE8-00092D5E4047}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API-gateway", "..\microservice\API-gateway\API-gateway.csproj", "{93A837F7-9ECD-4390-9A79-8ECBD25E67E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API-gateway", "API-gateway\API-gateway.csproj", "{0E92A73F-AB0F-416E-B66B-DF292C1FCD07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,18 +21,14 @@ Global
 		{3BB5690A-6BEF-4FF0-840A-71674029DCB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BB5690A-6BEF-4FF0-840A-71674029DCB6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3BB5690A-6BEF-4FF0-840A-71674029DCB6}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{C051AC6A-A365-484A-91BA-323FC60DB0C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C051AC6A-A365-484A-91BA-323FC60DB0C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C051AC6A-A365-484A-91BA-323FC60DB0C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C051AC6A-A365-484A-91BA-323FC60DB0C1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{36855172-774C-4779-8FE8-00092D5E4047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36855172-774C-4779-8FE8-00092D5E4047}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36855172-774C-4779-8FE8-00092D5E4047}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36855172-774C-4779-8FE8-00092D5E4047}.Release|Any CPU.Build.0 = Release|Any CPU
-		{93A837F7-9ECD-4390-9A79-8ECBD25E67E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93A837F7-9ECD-4390-9A79-8ECBD25E67E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93A837F7-9ECD-4390-9A79-8ECBD25E67E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93A837F7-9ECD-4390-9A79-8ECBD25E67E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70816353-66FD-4FD8-9B59-3EBE04FE6D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70816353-66FD-4FD8-9B59-3EBE04FE6D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70816353-66FD-4FD8-9B59-3EBE04FE6D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70816353-66FD-4FD8-9B59-3EBE04FE6D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E92A73F-AB0F-416E-B66B-DF292C1FCD07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E92A73F-AB0F-416E-B66B-DF292C1FCD07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E92A73F-AB0F-416E-B66B-DF292C1FCD07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E92A73F-AB0F-416E-B66B-DF292C1FCD07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
