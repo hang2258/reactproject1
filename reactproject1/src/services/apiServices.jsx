@@ -28,3 +28,4 @@ export const getOriginalUrl = async (shortCode) => {
         throw error;
     }
 };
+

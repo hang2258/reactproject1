@@ -1,0 +1,6 @@
+@API_gateway_HostAddress = https://localhost:5555
+
+GET {{UrlShortener_HostAddress}}/api/Url/{shortUrl}
+Accept: application/json
+
+###
